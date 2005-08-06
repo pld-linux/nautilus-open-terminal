@@ -21,10 +21,12 @@ Requires:	gnome-terminal
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Nautilus extension which allows you to open a terminal in arbitrary local folders.
+Nautilus extension which allows you to open a terminal in arbitrary
+local folders.
 
 %description -l pl
-Rozszerzenie Nautilusa pozwalaj±ce otwieraæ terminal w lokalnych folderach.
+Rozszerzenie Nautilusa pozwalaj±ce otwieraæ terminal w lokalnych
+folderach.
 
 %prep
 %setup -q
