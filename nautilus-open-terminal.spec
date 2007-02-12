@@ -1,5 +1,5 @@
 Summary:	Nautilus extension which allows you to open a terminal in arbitrary local folders
-Summary(pl):	Rozszerzenie Nautilusa pozwalaj±ce otwieraæ terminal w lokalnych folderach
+Summary(pl.UTF-8):   Rozszerzenie Nautilusa pozwalajÄ…ce otwieraÄ‡ terminal w lokalnych folderach
 Name:		nautilus-open-terminal
 Version:	0.7
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Nautilus extension which allows you to open a terminal in arbitrary
 local folders.
 
-%description -l pl
-Rozszerzenie Nautilusa pozwalaj±ce otwieraæ terminal w lokalnych
+%description -l pl.UTF-8
+Rozszerzenie Nautilusa pozwalajÄ…ce otwieraÄ‡ terminal w lokalnych
 folderach.
 
 %prep
