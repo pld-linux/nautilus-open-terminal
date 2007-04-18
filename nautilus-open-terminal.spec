@@ -1,12 +1,12 @@
 Summary:	Nautilus extension which allows you to open a terminal in arbitrary local folders
 Summary(pl.UTF-8):	Rozszerzenie Nautilusa pozwalające otwierać terminal w lokalnych folderach
 Name:		nautilus-open-terminal
-Version:	0.7
+Version:	0.8
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	http://manny.cluecoder.org/packages/nautilus-open-terminal/%{name}-%{version}.tar.gz
-# Source0-md5:	318e9673017d9faf9a56aeeb74d36124
+Source0:	http://ftp.gnome.org/pub/gnome/sources/nautilus-open-terminal/0.8/%{name}-%{version}.tar.bz2
+# Source0-md5:	ce326bd02bc4b3719b613b60dd7c9a35
 URL:		http://manny.cluecoder.org/packages/nautilus-open-terminal/
 BuildRequires:	GConf2-devel
 BuildRequires:	autoconf
@@ -15,7 +15,7 @@ BuildRequires:	glib2-devel >= 1:2.6.0
 BuildRequires:	gnome-desktop-devel >= 2.10.0
 BuildRequires:	intltool >= 0.18
 BuildRequires:	libtool
-BuildRequires:	nautilus-devel >= 2.6.0
+BuildRequires:	nautilus-devel >= 2.18.0
 BuildRequires:	pkgconfig
 Requires:	gnome-terminal
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
