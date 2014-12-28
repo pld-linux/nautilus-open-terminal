@@ -12,7 +12,7 @@ URL:		http://manny.cluecoder.org/packages/nautilus-open-terminal/
 BuildRequires:	GConf2-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.16.1
 BuildRequires:	gnome-desktop-devel >= 3.0.0
 BuildRequires:	intltool >= 0.36.2
